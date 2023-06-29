@@ -1,0 +1,145 @@
+.nav{
+    width:100vw;
+    height:70px;
+    color:rgb(0, 0, 0) !important;
+    background-color:hsla(0,0%,100%,1);
+  
+    display: flex;
+    flex-direction: row;align-items: center;
+    justify-content: flex-end;
+    gap:20px;
+    position: fixed;
+    z-index: 3;
+   top:0px;
+    box-shadow: 0px 0px 5px 0px rgb(184, 184, 184);
+  
+  
+}
+.contact{
+    background-color: rgb(255, 208, 0);
+  margin-right: 20px;
+color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 20px;
+    border-radius: 9px;
+
+
+}
+.r{
+    width:50px;
+    height:30px;
+}
+.contact:hover{
+    color:black;
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(229, 255, 0),
+    0 0 82px rgb(236, 231, 231),
+    0 0 92px rgb(250, 248, 248),
+    0 0 102px rgb(206, 204, 204),
+    0 0 151px rgb(221, 255, 0);
+}
+.logo{
+    margin-right: auto;
+    margin-left: 20px;
+    color:rgb(0, 0, 0);
+    font-size: x-large;
+    font-weight: bold;
+    padding:2px 6px;
+}
+.logo:hover{
+    cursor: pointer;
+color:red
+}
+
+spa{
+    color:rgb(203, 207, 0);
+    font-size: 30px;
+}
+.navsearchcon{
+    position: relative;
+   
+}
+.navsearch{
+    border:0.5px solid rgb(191, 187, 187);
+    border-radius: 20px;
+}
+.searchicon{
+position: absolute;
+top:13px;
+color:rgb(39, 38, 38);
+right:15px;
+transform: scale(1.5);
+}
+.cartno{
+    background-color: rgb(255, 234, 0);
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    position: absolute;
+    right:-6px;
+    top:-10px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+.cartcon{
+    position: relative;
+}
+.r{
+    margin-right: 50px;
+    color:rgb(0, 0, 0);
+    cursor:pointer
+   
+}
+.r:hover{
+    color:black;
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(229, 255, 0),
+    0 0 82px rgb(236, 231, 231),
+    0 0 92px rgb(250, 248, 248),
+    0 0 102px rgb(206, 204, 204),
+    0 0 151px rgb(221, 255, 0);
+}
+.menucon{
+    width:100vw;
+    height:100vh;
+    background-color:hsla(0,0%,98%,1);
+    background-image:
+    radial-gradient(at 80% 0%, hsla(74,75%,75%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(96,0%,100%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    position: fixed;
+    top:70px;
+    z-index: 4;
+   
+}
+.menudata{
+  padding:10px 20px;
+  font-size: 25px;
+
+}
+.menudata:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    transform: scale(1.2);
+   
+}
+.overflow{
+    overflow: hidden;
+}

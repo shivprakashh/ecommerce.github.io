@@ -1,0 +1,38 @@
+.loginform{
+width:400px;
+background-color: white;
+height:auto;
+display: flex;
+flex-direction: column;
+padding:40px;
+gap:20px;
+overflow: hidden;
+
+
+}
+.err{
+    padding:4px 10px; 
+    border-radius: 9px;
+    border:1px solid red;
+    color:red;
+    animation: err 1s;
+}
+@keyframes err {
+    0%{transform: translateX(-200px);}
+    100%{transform: translateX(0px);}
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logininput{
+    padding:8px 10px;
+    background-color: white;
+    border:none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 9px;
+}

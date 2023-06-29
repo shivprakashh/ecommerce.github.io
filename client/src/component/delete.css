@@ -1,0 +1,48 @@
+.deletecon{
+    width:80%;
+    background-color:white;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding:20px;
+}
+.deleteLeft{
+    width:40%;
+    height:300px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.deleteRight{
+    width:40%;
+    height:auto;
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px rgb(195, 195, 195);
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+    gap:30px;
+    padding:20px;
+   
+}
+.edittext{
+    color:rgb(255, 106, 0)
+}
+.in{
+    width:300px;
+    height:50px;
+    border:none;
+    border-radius: 9px;
+    box-shadow: 0px 0px 9px 1px rgb(216, 215, 215);
+}
+.bu{
+    width:170px;
+   height:40px;
+    color:white;
+    border-radius: 9px;
+    background-color: red;
+}
